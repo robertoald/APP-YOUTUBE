@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Board</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    .board { display: flex; padding: 20px; gap: 10px; }
+    .column { flex: 1; background: #f0f0f0; padding: 10px; border-radius: 4px; }
+    .card { background: #fff; padding: 8px; margin-bottom: 8px; border-radius: 4px; cursor: grab; }
+    .login { padding: 20px; }
+  </style>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script type="text/babel" src="TaskBoard.js"></script>
+</body>
+</html>
